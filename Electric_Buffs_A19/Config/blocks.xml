@@ -1,20 +1,20 @@
 <Config>
 
 <!--Generator-->
-<set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']/@value">4000</set> <!-- X4 of default-->
+<set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']/@value">4000</set> <!-- X4 of default - Total amount of fuel the generator can hold -->
 <set xpath="/blocks/block[@name='generatorbank']/property[@name='OutputPerFuel']/@value">45000</set> <!-- X4 of default-->
 <set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxPower']/@value">49000</set> <!-- X4 of default-->
-<set xpath="/blocks/block[@name='generatorbank']/property[@name='OutputPerStack']/@value">400</set> <!-- X4 of default-->
+<set xpath="/blocks/block[@name='generatorbank']/property[@name='OutputPerStack']/@value">400</set> <!-- X4 of default - Maximum power output of a single engine -->
 
 <!--Solar Bank-->
-<set xpath="/blocks/block[@name='solarbank']/property[@name='OutputPerStack']/@value">120</set> <!-- X4 of default-->
-<set xpath="/blocks/block[@name='solarbank']/property[@name='MaxPower']/@value">720</set> <!-- X4 of default-->
+<set xpath="/blocks/block[@name='solarbank']/property[@name='OutputPerStack']/@value">120</set> <!-- X4 of default - Maximum power output of a Lvl 6 solar cell -->
+<set xpath="/blocks/block[@name='solarbank']/property[@name='MaxPower']/@value">720</set> <!-- X4 of default - Maximum combined output of all solar cells -->
 
 <!--Battery Bank-->
-<set xpath="/blocks/block[@name='batterybank']/property[@name='MaxPower']/@value">1600</set> <!-- X4 of default-->
+<set xpath="/blocks/block[@name='batterybank']/property[@name='MaxPower']/@value">1600</set> <!-- X4 of default - Maximum combined output of all batteries -->
 <set xpath="/blocks/block[@name='batterybank']/property[@name='InputPerTick']/@value">20</set> <!-- X4 of default-->
 <set xpath="/blocks/block[@name='batterybank']/property[@name='ChargePerInput']/@value">4</set> <!-- X4 of default-->
-<set xpath="/blocks/block[@name='batterybank']/property[@name='OutputPerStack']/@value">200</set> <!-- X4 of default-->
+<set xpath="/blocks/block[@name='batterybank']/property[@name='OutputPerStack']/@value">200</set> <!-- X4 of default - Maximum power output of a Lvl 6 battery -->
 <set xpath="/blocks/block[@name='batterybank']/property[@name='OutputPerCharge']/@value">360</set> <!-- X4 of default-->
 
 </Config>
